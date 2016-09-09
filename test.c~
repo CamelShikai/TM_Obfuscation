@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+
+	char b[20];
+	char* c;
+	strcpy(b, "asdga:asdgasdg:3333");
+	c = strtok(b,":");
+	printf("%s",c);
+	return 0;
+}
